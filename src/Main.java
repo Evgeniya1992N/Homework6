@@ -38,7 +38,7 @@ public class Main {
         }
         //Task 10
         int result = 1;
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i = i + 1) {
             result = i * 2;
             System.out.println( "2*" + i + "=" + result );
         }
